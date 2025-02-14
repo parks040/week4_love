@@ -1,10 +1,8 @@
 body {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    min-height: 100vh;
+
+    height: 100vh;
     background-color: #ff9999;
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Borel", serif;
     font-weight: 200;
     font-style: light;
     position: relative;
@@ -36,19 +34,27 @@ body {
 .box h2 {
     font-size: 24px;
 }
+
+
+
 .button {
+    all: unset;
     width: 650px;
     height: 200px;
-    border: none;
+    border: 20px;
+    cursor: pointer;
     color: #ffffff;
     text-align: center;
     line-height: 100px;
-    margin: 0 auto;
-    display: inline-block;
     transition: background-color 0.3s ease;
     justify-content: center;
     align-items: center;
 }
+
+
+
 .button:hover {
+    color:black;
+
     border: #ffffff;
 }
